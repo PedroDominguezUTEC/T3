@@ -9,8 +9,8 @@ app.get('/menu', menu);
 function menu(req, res){
     var connection = mysql.createConnection({
         host     : 'localhost',
-        user     : 'pedro',
-        password : 'Lima2020$',
+        user     : 'utec',
+        password : '1234567890',
         database : 'restaurant'
       });
 
